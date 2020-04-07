@@ -1,0 +1,81 @@
+@import '../../../theme/variables';
+
+// hero module
+$hero-module-padding: 20px;
+$hero-module-color: #eee;
+$hero-module-color-hover: #607d8b;
+$hero-module-height: 120px;
+$hero-module-height-small-media: 75px;
+$hero-module-background-color: #3f525c;
+$hero-module-background-color-hover: #eee;
+$hero-module-font-size-small-media: 10px;
+// grid pad
+$grid-pad-padding: 10px 0;
+
+a {
+  box-sizing: border-box;
+}
+
+[class*='col-'] {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+  &:last-of-type {
+    padding-right: 0;
+  }
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h4 {
+  position: relative;
+}
+
+.grid {
+  margin: 0;
+
+  &-pad {
+    padding: $grid-pad-padding;
+
+    &:after {
+      display: block;
+      content: '';
+      clear: both;
+    }
+  }
+}
+
+.module {
+  padding: $hero-module-padding;
+  text-align: center;
+  color: $hero-module-color;
+  max-height: $hero-module-height;
+  min-width: $hero-module-height;
+  background-color: $hero-module-background-color;
+  border-radius: $default-border-radius;
+
+  &:hover {
+    background-color: $hero-module-background-color-hover;
+    cursor: pointer;
+    color: $hero-module-color-hover;
+  }
+}
+
+@media (max-width: 600px) {
+  .module {
+    font-size: $hero-module-font-size-small-media;
+    max-height: $hero-module-height-small-media;
+  }
+}
+@media (max-width: 1024px) {
+  .grid {
+    margin: 0;
+  }
+  .module {
+    min-width: 60px;
+  }
+}

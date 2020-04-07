@@ -1,0 +1,11 @@
+<div *ngIf="hero">
+    <h2>Equipment of {{hero.name}}:</h2>
+    <div *ngIf="hero.weapons.length > 0 else noWeapons">
+      <ul>
+        <li *ngFor="let weapon of hero.weapons">
+            <app-equipment-detail [hero]="hero"  [weapon]="weapon" (weaponDeleted)="onDeleted($event)"></app-equipment-detail>
+        </li>
+      </ul>
+    </div>
+    <ng-template #noWeapons>This hero doesn't have any equipment :(</ng-template>
+  </div>

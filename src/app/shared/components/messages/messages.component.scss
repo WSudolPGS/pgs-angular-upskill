@@ -1,0 +1,41 @@
+@import '../../../../theme/variables';
+
+// title
+$title-color: red;
+$title-font-family: Arial, Helvetica, sans-serif;
+// clear button
+$clear-button-color: #333;
+$clear-button-color-disabled: #aaa;
+$clear-button-font-family: Arial, sans-serif;
+$clear-button-background-color: #eee;
+$clear-button-background-color-hover: #cfd7dc;
+$clear-button-background-color-disabled: #eee;
+$clear-button-padding: 5px 10px;
+$clear-button-margin: 0 0 12px 0;
+
+h2 {
+  color: $title-color;
+  font-family: $title-font-family;
+  font-weight: lighter;
+}
+
+button {
+  color: $clear-button-color;
+  font-family: $clear-button-font-family;
+  background-color: $clear-button-background-color;
+  border: none;
+  padding: $clear-button-padding;
+  border-radius: $default-border-radius;
+  cursor: pointer;
+  margin-bottom: $clear-button-margin;
+
+  &:hover {
+    background-color: $clear-button-background-color-hover;
+  }
+
+  &:disabled {
+    background-color: $clear-button-background-color-disabled;
+    color: $clear-button-color-disabled;
+    cursor: auto;
+  }
+}

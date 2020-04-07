@@ -1,0 +1,106 @@
+@import '../../../theme/variables';
+
+// heroes list wrapper
+$heroes-list-wrapper-margin: 0 0 2em 0;
+$heroes-list-wrapper-width: 15em;
+// heroes list item
+$heroes-list-item-color-hover: #607D8B;
+$heroes-list-item-background-color: #eee;
+$heroes-list-item-background-color-hover: #DDD;
+$heroes-list-item-margin: .5em;
+$heroes-list-item-padding: .3em 0;
+$heroes-list-item-height: 1.6em;
+// heroes list item link
+$heroes-list-item-link-color: #333;
+$heroes-list-item-link-color-hover: #607D8B;
+$heroes-list-item-link-width: 250px;
+// heroes list item badge
+$heroes-list-item-badge-font-size: small;
+$heroes-list-item-badge-color: white;
+$heroes-list-item-badge-background-color: #405061;
+$heroes-list-item-badge-padding: 0.8em 0.7em 0 0.7em;
+$heroes-list-item-badge-height: 1.8em;
+// action button
+$action-button-background-color: #eee;
+$action-button-background-color-hover: #cfd8dc;
+$action-button-background-padding: 5px 10px;
+$action-button-background-font-family: Arial, sans-serif;
+// action button delete
+$action-button-delete-background-color: gray !important;
+$action-button-delete-color: white;
+
+.heroes {
+  margin: $heroes-list-wrapper-margin;
+  padding: 0;
+  // width: $heroes-list-wrapper-width;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  float: left;
+  position: relative;
+  cursor: pointer;
+  background-color: $heroes-list-item-background-color;
+  margin: $heroes-list-item-margin;
+  padding: $heroes-list-item-padding;
+  height: $heroes-list-item-height;
+  border-radius: $default-border-radius;
+
+  &:hover {
+    color: $heroes-list-item-color-hover;
+    background-color: $heroes-list-item-background-color;
+    left: .1em;
+  }
+}
+
+a {
+  color: $heroes-list-item-link-color;
+  position: relative;
+  display: block;
+  width: $heroes-list-item-link-width;
+
+  &:hover {
+    color: $heroes-list-item-link-color-hover;
+  }
+}
+
+.badge {
+  display: inline-block;
+  font-size: $heroes-list-item-badge-font-size;
+  color: $heroes-list-item-badge-color;
+  padding: $heroes-list-item-badge-padding;
+  background-color: $heroes-list-item-badge-background-color;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: $heroes-list-item-badge-height;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: $default-border-radius;
+}
+
+button {
+  background-color: $action-button-background-color;
+  border: none;
+  padding: $action-button-background-padding;
+  border-radius: $default-border-radius;
+  cursor: pointer;
+  font-family: $action-button-background-font-family;
+
+  &:hover {
+    background-color: $action-button-background-color-hover;
+  }
+
+  &.delete {
+    position: relative;
+    left: 194px;
+    top: -32px;
+    background-color: $action-button-delete-background-color;
+    color: $action-button-delete-color;
+  }
+}

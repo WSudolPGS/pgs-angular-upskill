@@ -1,0 +1,35 @@
+@import '../theme/variables';
+
+$title-font-size: 1.2em;
+$nav-link-padding: 5px 10px;
+$nav-link-margin: 10px 0 0 0;
+$nav-link-background-color: #eee;
+$nav-link-background-color-hover: #CFD8DC;
+$nav-link-color-visited: #334953;
+$nav-link-color-hover: #039be5;
+$nav-link-color-active: #039be5;
+
+h1 {
+  font-size: $title-font-size;
+  margin-bottom: 0;
+}
+
+nav a {
+  padding: $nav-link-padding;
+  margin-top: $nav-link-margin;
+  display: inline-block;
+  background-color: $nav-link-background-color;
+  border-radius: $default-border-radius;
+
+  &:visited,
+  &:link {
+    color: $nav-link-color-visited;
+  }
+  &:hover {
+    color: $nav-link-color-hover;
+    background-color: $nav-link-background-color-hover;
+  }
+  &.active {
+    color: $nav-link-color-active;
+  }
+}

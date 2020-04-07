@@ -1,0 +1,424 @@
+{
+  "heroes": [
+    {
+      "health": 100,
+      "id": "173c5df1",
+      "missions": [],
+      "name": "Dr Pain",
+      "powers": [],
+      "weapons": [
+        {
+          "damage": 60,
+          "name": "Astrodirk",
+          "range": 20
+        },
+        {
+          "damage": 70,
+          "name": "Atomofork",
+          "range": 30
+        },
+        {
+          "damage": 80,
+          "name": "Battlesceptre",
+          "range": 40
+        }
+      ]
+    },
+    {
+      "health": 100,
+      "id": "8393221b",
+      "missions": [],
+      "name": "Spider Boy",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "c73f02d3",
+      "missions": [],
+      "name": "Silver Hammer",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "cd1c55b7",
+      "missions": [],
+      "name": "Super Beaver",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "ca06c096",
+      "missions": [],
+      "name": "Captain Huge Hawk",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "7100fe27",
+      "missions": [],
+      "name": "Zulu Warrior",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "bab15369",
+      "missions": [],
+      "name": "Quantum Sparrow",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "34309048",
+      "missions": [],
+      "name": "Steel Rhinoceros",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "ff768cdc",
+      "missions": [],
+      "name": "Galactic Gargoyle",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "39945051",
+      "missions": [],
+      "name": "Mighty Mamba",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "59751f78",
+      "missions": [],
+      "name": "The Fearless Waspman",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "aa837736",
+      "missions": [],
+      "name": "Godly Ox",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "d1a1bac9",
+      "missions": [],
+      "name": "The Storm Lion",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "5be6d320",
+      "missions": [],
+      "name": "Mysterious Shade",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "baf23a8b",
+      "missions": [],
+      "name": "Chief Brave Cheetah",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "1496bb6e",
+      "missions": [],
+      "name": "Impossible Girl",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "2820c235",
+      "missions": [],
+      "name": "Master Vulture",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "358979f2",
+      "missions": [],
+      "name": "Gentle Protector",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "eb95e90f",
+      "missions": [],
+      "name": "Macho Cat",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "27f2b644",
+      "missions": [],
+      "name": "Dark Warrior",
+      "powers": [],
+      "weapons": []
+    },
+    {
+      "health": 100,
+      "id": "f62d2df9",
+      "missions": [],
+      "name": "Titanio",
+      "powers": [],
+      "weapons": []
+    }
+  ],
+  "powers": [
+    {
+      "level": 0,
+      "name": "dexterity"
+    },
+    {
+      "level": 0,
+      "name": "super speed"
+    },
+    {
+      "level": 0,
+      "name": "telepathy"
+    },
+    {
+      "level": 0,
+      "name": "super strength"
+    },
+    {
+      "level": 0,
+      "name": "plant control"
+    },
+    {
+      "level": 0,
+      "name": "energy blasts"
+    },
+    {
+      "level": 0,
+      "name": "super hearing"
+    },
+    {
+      "level": 0,
+      "name": "magnetic manipulation"
+    },
+    {
+      "level": 0,
+      "name": "bone claws"
+    },
+    {
+      "level": 0,
+      "name": "heat vision"
+    },
+    {
+      "level": 0,
+      "name": "telekenesis"
+    },
+    {
+      "level": 0,
+      "name": "fire manipulation"
+    },
+    {
+      "level": 0,
+      "name": "ice manipulation"
+    },
+    {
+      "level": 0,
+      "name": "healing"
+    },
+    {
+      "level": 0,
+      "name": "adhesive fingers"
+    },
+    {
+      "level": 0,
+      "name": "control machines"
+    },
+    {
+      "level": 0,
+      "name": "elasticity"
+    },
+    {
+      "level": 0,
+      "name": "shapeshifting"
+    },
+    {
+      "level": 0,
+      "name": "time travel"
+    },
+    {
+      "level": 0,
+      "name": "poisonous handshake"
+    }
+  ],
+  "weapons": [
+    {
+      "damage": 60,
+      "name": "Astrodirk",
+      "range": 20
+    },
+    {
+      "damage": 70,
+      "name": "Atomofork",
+      "range": 30
+    },
+    {
+      "damage": 80,
+      "name": "Battlesceptre",
+      "range": 40
+    },
+    {
+      "damage": 90,
+      "name": "Blightshooter",
+      "range": 30
+    },
+    {
+      "damage": 100,
+      "name": "Devilpike",
+      "range": 20
+    },
+    {
+      "damage": 90,
+      "name": "Flamerod",
+      "range": 30
+    },
+    {
+      "damage": 80,
+      "name": "Glorysaber",
+      "range": 40
+    },
+    {
+      "damage": 70,
+      "name": "Gunsnare",
+      "range": 50
+    },
+    {
+      "damage": 80,
+      "name": "Hexasceptre",
+      "range": 40
+    },
+    {
+      "damage": 70,
+      "name": "Magnarifle",
+      "range": 30
+    },
+    {
+      "damage": 60,
+      "name": "Metalhammer",
+      "range": 60
+    },
+    {
+      "damage": 50,
+      "name": "Neospinner",
+      "range": 70
+    },
+    {
+      "damage": 100,
+      "name": "Nightmaster",
+      "range": 80
+    },
+    {
+      "damage": 100,
+      "name": "Overheater",
+      "range": 20
+    },
+    {
+      "damage": 60,
+      "name": "Planestopper",
+      "range": 30
+    },
+    {
+      "damage": 60,
+      "name": "Quadsphere",
+      "range": 20
+    },
+    {
+      "damage": 80,
+      "name": "Rockshooter",
+      "range": 40
+    },
+    {
+      "damage": 70,
+      "name": "Shadowsigil",
+      "range": 30
+    },
+    {
+      "damage": 80,
+      "name": "Shockdrill",
+      "range": 40
+    },
+    {
+      "damage": 100,
+      "name": "Spaceslayer",
+      "range": 100
+    }
+  ],
+  "missions": [
+    {
+      "dateTime": "2019-10-17T09:07:03.760Z",
+      "difficulty": 3,
+      "location": {
+        "latitude": "51.107883",
+        "longitude": "17.038538"
+      },
+      "name": "Mission Anihilation",
+      "object": "Destroy all evil",
+      "points": 100,
+      "status": 2
+    },
+    {
+      "dateTime": "2020-10-17T09:07:03.760Z",
+      "difficulty": 2,
+      "location": {
+        "latitude": "54.372158",
+        "longitude": "18.638306"
+      },
+      "name": "Break the spell",
+      "object": "Intercept submarine based atomic payload",
+      "points": 100,
+      "status": 2
+    },
+    {
+      "dateTime": "2021-10-17T09:07:03.760Z",
+      "difficulty": 2,
+      "location": {
+        "latitude": "50.041187",
+        "longitude": "21.999121"
+      },
+      "name": "Capture the Kraken",
+      "object": "Capture a suitcase with a deadly virus",
+      "points": 100,
+      "status": 2
+    }
+  ],
+  "locations": [
+    {
+      "latitude": "51.107883",
+      "longitude": "17.038538"
+    },
+    {
+      "latitude": "54.372158",
+      "longitude": "18.638306"
+    },
+    {
+      "latitude": "50.041187",
+      "longitude": "21.999121"
+    }
+  ]
+}

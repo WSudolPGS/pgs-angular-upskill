@@ -1,0 +1,53 @@
+<h1 mat-dialog-title>Add Hero</h1>
+  <mat-dialog-content>
+    <ng-container *ngIf="getName() as nameControl">
+      <div *ngIf="nameControl.invalid && (nameControl.dirty || nameControl.touched)">
+        <div *ngIf="nameControl.errors.forbiddenName">
+          Name has to start with capital letter.
+        </div>
+        <div *ngIf="nameControl.errors.notAvailable">
+          Name is already taken.
+        </div>
+      </div>
+    </ng-container>
+    <form [formGroup]="heroForm">
+      <mat-form-field>
+        <input matInput
+              type="text"
+              placeholder="Hero Name"
+              formControlName="name">
+      </mat-form-field>
+      <mat-form-field>
+            <input matInput
+              type="number"
+              placeholder="Choose crime number"
+              formControlName="crimes">
+      </mat-form-field>
+      <mat-form-field>
+            <input matInput
+              [matDatepicker]="picker"
+              placeholder="Choose a date"
+              formControlName="dob">
+              <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+              <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput
+            type="color"
+            placeholder="Color"
+            formControlName="colorTheme">
+      </mat-form-field>
+      <app-hero-character-selector formControlName="character"
+        [characterList]="characterList">
+      </app-hero-character-selector>
+    </form>
+  </mat-dialog-content>
+<div mat-dialog-actions
+  class="buttons">
+  <button mat-button
+    (click)="onCancel()">Cancel</button>
+  <button mat-button
+    cdkFocusInitial
+    (click)="onSave()"
+    [disabled]="!heroForm.valid">Save</button>
+</div>

@@ -1,0 +1,8 @@
+<h1>{{title}}</h1>
+<nav>
+  <a [routerLink]="['/', routingPaths.DOSHBOARD_ROOT]">Dashboard</a>
+  <a [routerLink]="['/', routingPaths.HEROES_ROOT]">Heroes</a>
+</nav>
+<router-outlet></router-outlet>
+<app-messages></app-messages>
+<app-spinner></app-spinner>

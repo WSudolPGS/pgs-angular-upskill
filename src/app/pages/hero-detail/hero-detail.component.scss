@@ -1,0 +1,52 @@
+@import '../../../theme/variables';
+
+// hero name label
+$hero-name-width: 3em;
+$hero-name-margin: .5em 0;
+$hero-name-color: #607D8B;
+// hero name input
+$hero-name-input-height: 2em;
+$hero-name-input-font-size: 1em;
+$hero-name-input-padding-left: 1em;
+// action buttons
+$action-button-color-disabled: #ccc;
+$action-button-margin: 20px 0 0 0;
+$action-button-font-family: Arial, sans-serif;
+$action-button-background-color: #eee;
+$action-button-background-color-hover: #cfd8dc;
+$action-button-background-color-disabled: #eee;
+$action-button-padding: 5px 10px;
+
+
+label {
+  display: inline-block;
+  width: $hero-name-width;
+  margin: $hero-name-margin;
+  color: $hero-name-color;
+  font-weight: bold;
+}
+
+input {
+  height: $hero-name-input-height;
+  font-size: $hero-name-input-font-size;
+  padding-left: $hero-name-input-padding-left;
+}
+
+button {
+  margin: $action-button-margin;
+  font-family: $action-button-font-family;
+  background-color: $action-button-background-color;
+  border: none;
+  padding: $action-button-padding;
+  border-radius: $default-border-radius;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $action-button-background-color-hover;
+  }
+  &:disabled {
+    background-color: $action-button-background-color-disabled;
+    color: $action-button-color-disabled;
+    cursor: auto;
+  }
+}

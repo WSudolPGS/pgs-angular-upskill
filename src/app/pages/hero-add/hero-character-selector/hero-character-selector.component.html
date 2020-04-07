@@ -1,0 +1,8 @@
+<mat-radio-group aria-label="Select character"
+  class="radio" 
+  [value]="selectedCharacter"
+  (input)="onChange($event.target.value)">
+    <mat-radio-button *ngFor="let character of characterList"
+    [value]="character"
+    class="radio__element">{{character}}</mat-radio-button>
+</mat-radio-group>
